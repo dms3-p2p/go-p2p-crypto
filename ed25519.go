@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	pb "github.com/libp2p/go-libp2p-crypto/pb"
+	pb "github.com/dms3-p2p/go-p2p-crypto/pb"
 	"golang.org/x/crypto/ed25519"
 )
 

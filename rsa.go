@@ -7,7 +7,7 @@ import (
 	"crypto/x509"
 	"errors"
 
-	pb "github.com/libp2p/go-libp2p-crypto/pb"
+	pb "github.com/dms3-p2p/go-p2p-crypto/pb"
 
 	sha256 "github.com/minio/sha256-simd"
 )

@@ -1,9 +1,9 @@
 package crypto_test
 
 import (
-	. "github.com/libp2p/go-libp2p-crypto"
-	pb "github.com/libp2p/go-libp2p-crypto/pb"
-	tu "github.com/libp2p/go-libp2p-crypto/test"
+	. "github.com/dms3-p2p/go-p2p-crypto"
+	pb "github.com/dms3-p2p/go-p2p-crypto/pb"
+	tu "github.com/dms3-p2p/go-p2p-crypto/test"
 
 	"bytes"
 	"crypto/rand"

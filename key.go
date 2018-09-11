@@ -1,4 +1,4 @@
-// Package crypto implements various cryptographic utilities used by ipfs.
+// Package crypto implements various cryptographic utilities used by dms3fs.
 // This includes a Public and Private key interface and an RSA key implementation
 // that satisfies it.
 package crypto
@@ -18,7 +18,7 @@ import (
 	"crypto/sha512"
 	"hash"
 
-	pb "github.com/libp2p/go-libp2p-crypto/pb"
+	pb "github.com/dms3-p2p/go-p2p-crypto/pb"
 
 	"github.com/gogo/protobuf/proto"
 	sha256 "github.com/minio/sha256-simd"
@@ -66,7 +66,7 @@ type Key interface {
 	Equals(Key) bool
 
 	// Raw returns the raw bytes of the key (not wrapped in the
-	// libp2p-crypto protobuf).
+	// dms3-p2p-crypto protobuf).
 	//
 	// This function is the inverse of {Priv,Pub}KeyUnmarshaler.
 	Raw() ([]byte, error)
